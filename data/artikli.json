@@ -1,0 +1,32 @@
+[
+    {
+        "idArtikla":1,
+        "imeArtikla":"Artikal 1",
+        "cena1":11,
+        "cena2":12
+    },
+    {
+        "idArtikla":2,
+        "imeArtikla":"Artikal 2",
+        "cena1":21,
+        "cena2":22
+    },
+    {
+        "idArtikla":3,
+        "imeArtikla":"Artikal 3",
+        "cena1":31,
+        "cena2":32
+    },
+    {
+        "idArtikla":4,
+        "imeArtikla":"Artikal 4",
+        "cena1":41,
+        "cena2":42
+    },
+    {
+        "idArtikla":5,
+        "imeArtikla":"Artikal 5",
+        "cena1":51,
+        "cena2":52
+    }
+]
