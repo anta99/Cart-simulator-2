@@ -23,7 +23,22 @@ $(document).ready(function(){
             };
             cart.push(item);
         }
-        console.log(cart);
+        if(cart.length!=0){
+            $.ajax({
+                url:"orders.php",
+                method:"POST",
+                dataType:"json",
+                data:{
+                    orders:cart
+                },
+                succes:function(res){
+
+                },
+                error:function(xhr){
+                    console.log(xhr);
+                }
+            })
+        }
     })
 })
 function showArticles(arr){
